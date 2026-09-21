@@ -1,0 +1,13 @@
+export { siteData } from "./site.js";
+export { heroData } from "./hero.js";
+export { trustBarData } from "./trustBar.js";
+export { servicesData } from "./services.js";
+export { beforeAfterData } from "./beforeAfter.js";
+export { projectsData } from "./projects.js";
+export { processData } from "./process.js";
+export { videoData } from "./video.js";
+export { whyChooseUsData } from "./whyChooseUs.js";
+export { testimonialsData } from "./testimonials.js";
+export { financeData } from "./finance.js";
+export { faqData } from "./faq.js";
+export { contactData } from "./contact.js";

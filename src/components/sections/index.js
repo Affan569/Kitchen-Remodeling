@@ -1,0 +1,12 @@
+export { default as Hero } from "./Hero.jsx";
+export { default as TrustBar } from "./TrustBar.jsx";
+export { default as Services } from "./Services.jsx";
+export { default as BeforeAfter } from "./BeforeAfter.jsx";
+export { default as Projects } from "./Projects.jsx";
+export { default as Process } from "./Process.jsx";
+export { default as Video } from "./Video.jsx";
+export { default as WhyChooseUs } from "./WhyChooseUs.jsx";
+export { default as Testimonials } from "./Testimonials.jsx";
+export { default as Finance } from "./Finance.jsx";
+export { default as FAQ } from "./FAQ.jsx";
+export { default as Contact } from "./Contact.jsx";
