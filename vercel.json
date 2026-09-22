@@ -4,5 +4,4 @@
   "framework": null,
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "nodeVersion": "18"
 }
