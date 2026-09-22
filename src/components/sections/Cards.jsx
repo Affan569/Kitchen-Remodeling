@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Container, Highlight, cardIcons } from "../ui";
-import { cardsSection, cards } from "../../data/site";
+import { cardsSection, cards } from "../../data";
 
 const cardClass =
   "group relative flex flex-col overflow-hidden rounded-[4px] border border-brand/10 bg-white p-8 " +
