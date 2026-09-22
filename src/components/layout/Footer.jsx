@@ -1,5 +1,5 @@
 import { ArrowUp, MapPin, Phone, Mail, Clock } from "lucide-react";
-import { Button, Container, Highlight, Logo } from "../ui";
+import { Button, Container, Highlight } from "../ui";
 import { site, footer, cta } from "../../data";
 
 const headingClass =
@@ -67,7 +67,11 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <a href="#top" aria-label="Home" className="inline-block">
-            <Logo className="h-16" alt={site.brand} />
+            <img
+              src="/assets/logo.jpg"
+              alt={site.brand}
+              className="h-16 w-auto object-contain"
+            />
           </a>
           <p className="mt-5 max-w-xs text-sm text-muted">{footer.description}</p>
           <ul className="mt-6 flex gap-3">

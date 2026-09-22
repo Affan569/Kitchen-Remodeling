@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import { Button, Container, Logo } from "../ui";
+import { Button, Container } from "../ui";
 import { site, nav, cta } from "../../data";
 
 export default function Header() {
@@ -113,7 +113,11 @@ export default function Header() {
       <header className={headerClass}>
         <Container className="flex h-full items-center justify-between gap-6">
           <a href="#top" aria-label="Home" className="flex items-center">
-        <Logo className="h-14 md:h-18" alt={site.brand} />
+            <img
+              src="/assets/logo.jpg"
+              alt={site.brand}
+              className="h-14 md:h-18 w-auto object-contain"
+            />
           </a>
 
           <nav aria-label="Main" className="hidden lg:block">
