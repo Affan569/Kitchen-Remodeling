@@ -1,0 +1,143 @@
+@import "tailwindcss";
+@theme {
+  /* Blue palette */
+  --color-brand: #006FB7;
+  --color-brand-dark: #0b2447;
+  --color-brand-light: #8db4ea;
+  --color-brand-tint: #eef4fc;
+  --color-ink: #0f1b2d;
+  --color-muted: #4a5a70;
+
+  /* Fonts */
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* One type scale for the whole site */
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 2rem);
+}
+
+h1.hero-heading {
+  font-size: clamp(2.75rem, 6vw, 5.5rem);
+}
+
+h2,
+h3 {
+  font-size: clamp(2rem, 4vw, 1.7rem);
+}
+
+/* Hero entrance animation */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Scroll indicator line */
+@keyframes scroll-line {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  51% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+
+.animate-scroll-line {
+  animation: scroll-line 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+.md\:py-24 {
+    padding-block: calc(var(--spacing) * 24);
+    padding: 20px;
+}
+.bg-white.py-16.text-center.md\:py-20 {
+    padding: 20px;
+}
+h2.text-ink.inline-block.border-b-4.border-brand.pb-2 {
+    font-size: 48px;
+}
+h1.font-heading.text-ink {
+    font-size: 48px;
+}
+h1.text-ink.pb-2 {
+    font-size: 48px;
+}
+.lg\:py-24 {
+    padding-block: calc(var(--spacing) * 6);
+}
+h2.font-heading.text-4xl.font-extrabold.tracking-tight.text-ink.md\:text-5xl.leading-tight {
+    font-size: 48px;
+}
+h3.font-heading.text-ink.text-xl.font-bold.mb-2.group-hover\:text-brand.transition-colors.duration-300 {
+    font-size: 30px;
+}
+h2.font-heading.text-3xl.md\:text-4xl.font-bold.text-ink.mb-6 {
+    font-size: 48px;
+}
+h1.relative.z-10.font-heading.text-ink {
+    font-size: 30px;
+}
+h1.relative.z-10.font-heading.text-ink {
+    font-size: 30px;
+}
+h2.text-ink.pb-2 {
+    font-size: 48px;
+}
