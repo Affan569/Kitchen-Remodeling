@@ -1,12 +1,8 @@
-export { default as Hero } from "./Hero.jsx";
-<<<<<<< HEAD
+export { default as hero } from "./hero.jsx";
 export { default as cards } from "./cards.jsx";
-=======
-export { default as Cards } from "./cards.jsx";
->>>>>>> origin/main
-export { default as WhyChooseUs } from "./WhyChooseUs.jsx";
-export { default as Projects } from "./Projects.jsx";
-export { default as Reviews } from "./Reviews.jsx";
-export { default as FAQ } from "./FAQ.jsx";
-export { default as ServiceCards } from "./ServiceCards.jsx";
-export { default as ComprehensiveFeature } from "./ComprehensiveFeature.jsx";
+export { default as whychooseus } from "./whychooseus.jsx";
+export { default as projects } from "./projects.jsx";
+export { default as reviews } from "./reviews.jsx";
+export { default as faq } from "./faq.jsx";
+export { default as servicecards } from "./servicecards.jsx";
+export { default as comprehensivefeature } from "./comprehensivefeature.jsx";
