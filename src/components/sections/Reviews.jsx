@@ -1,4 +1,4 @@
-import { Container, Highlight } from "../ui";
+import { Container } from "../ui";
 import { reviewsSection, reviews } from "../../data";
 import { Star } from "lucide-react";
 
@@ -35,7 +35,7 @@ export default function Reviews() {
                     );
                   })}
                 </div>
-                <p className="mb-4 text-ink italic leading-relaxed">
+                <p className="mb-4 text-ink leading-relaxed">
                   "{review.text}"
                 </p>
                 <div className="flex items-center gap-3">
