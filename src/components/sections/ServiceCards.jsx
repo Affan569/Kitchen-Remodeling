@@ -1,6 +1,6 @@
 import { Container } from "../ui";
 
-export default function ServiceCards({ cards }) {
+export default function ServiceCards({ cards = [] }) {
   return (
     <section className="relative bg-white py-24 overflow-hidden">
       {/* Decorative soft background glow elements */}
@@ -25,7 +25,7 @@ export default function ServiceCards({ cards }) {
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
-          {cards.map((card, index) => (
+          {cards && cards.length > 0 ? cards.map((card, index) => (
             <div
               key={index}
               className="group relative bg-white rounded-3xl p-6 border border-slate-100 shadow-[0_10px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-1.5 flex flex-col justify-between"
@@ -80,7 +80,9 @@ export default function ServiceCards({ cards }) {
                 </a>
               </div>
             </div>
-          ))}
+          )) : (
+            <p className="text-muted text-center col-span-full">No services available at the moment.</p>
+          )}
         </div>
 
         {/* Footer Subtext Branding */}

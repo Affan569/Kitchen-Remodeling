@@ -164,6 +164,51 @@ export const cards = [
   },
 ];
 
+export const serviceCards = [
+  {
+    number: "01",
+    title: "Kitchen Design",
+    description: "Bespoke 3D layouts planned around how you cook, live and entertain.",
+    image: "/assets/kitchen-design.jpg",
+    href: "/kitchen-design",
+  },
+  {
+    number: "02",
+    title: "Full Installation",
+    description: "Precision fitting of units, worktops and appliances by trusted craftsmen.",
+    image: "/assets/kitchen-install.jpg",
+    href: "/full-installation",
+  },
+  {
+    number: "03",
+    title: "Worktops & Units",
+    description: "Quartz, granite, wood and handleless cabinetry in finishes made to last.",
+    image: "/assets/worktops-units.jpg",
+    href: "/worktops-units",
+  },
+  {
+    number: "04",
+    title: "Plumbing & Appliances",
+    description: "Safe, certified plumbing, gas and appliance fitting, all in one visit.",
+    image: "/assets/plumbing-appliances.jpg",
+    href: "/plumbing-appliances",
+  },
+  {
+    number: "05",
+    title: "Flooring & Lighting",
+    description: "Layered lighting and durable flooring that finish the room beautifully.",
+    image: "/assets/flooring-lighting.jpg",
+    href: "/flooring-lighting",
+  },
+  {
+    number: "06",
+    title: "Full Remodels",
+    description: "Structural changes, open-plan spaces and complete kitchen transformations.",
+    image: "/assets/full-remodels.jpg",
+    href: "/full-remodels",
+  },
+];
+
 export const servicePages = {
   about: {
     hero: {
