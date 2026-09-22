@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
-import { Container, Highlight, cardIcons } from "../ui";
+import { Container, cardIcons } from "../ui";
 import { cardsSection, cards } from "../../data";
 
 const cardClass =
