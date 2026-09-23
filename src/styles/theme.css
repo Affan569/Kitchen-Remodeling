@@ -42,7 +42,7 @@ h1 {
 }
 
 h1.hero-heading {
-  font-size: clamp(2.75rem, 6vw, 5.5rem);
+  font-size: clamp(2.75rem, 6vw, 4.5rem);
 }
 
 h2,
@@ -140,4 +140,23 @@ h1.relative.z-10.font-heading.text-ink {
 }
 h2.text-ink.pb-2 {
     font-size: 48px;
+}
+.py-20 {
+    padding-block: calc(var(--spacing) * 10);
+}
+@media (width >= 48rem) {
+    .md\:py-28 {
+        padding-block: calc(var(--spacing) * 10);
+    }
+    p.leading-relaxed.text-white\/85 {
+    font-size: 16px;
+}
+h3.font-heading.text-white {
+    font-size: 26px;
+}
+.flex.flex-col.justify-center.gap-4.bg-brand.px-8.py-14.md\:px-16.h-full {
+    padding: 1px 30px;
+            gap: 30px;
+}
+
 }

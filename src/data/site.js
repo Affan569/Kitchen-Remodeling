@@ -26,7 +26,6 @@ export const cta = {
 };
 
 export const hero = {
-  eyebrow: "Kitchen & Remodeling in Hampshire",
   titleStart: "Kitchens designed to be",
   titleHighlight: "lived in",
   subtext:
@@ -1040,7 +1039,7 @@ export const whyChooseUsRows = [
   {
     title: "A personal service from a family business…",
     text:
-      "We know that investing in a new kitchen is a big decision. That’s why, for more than 50 years, we’ve focused on a smooth, professional, and supportive experience—free from any high-pressure sales tactics. Our close-knit team of designers and fitters is perfectly sized: large enough to deliver exceptional results, yet small enough to truly get to know you and your home. Best of all, your designer stays by your side from start to finish, serving as your dedicated, familiar point of contact every step of the way.",
+      "For over 50 years, we've delivered a pressure-free, supportive kitchen journey. Your dedicated designer works with you from start to finish, backed by an experienced team that's large enough to excel yet small enough to truly care.",
     image: "/assets/1.jpg",
     imageAlt: "Kitchen designer discussing plans with a customer",
     buttonText: "More about us...",
@@ -1049,7 +1048,7 @@ export const whyChooseUsRows = [
   {
     title: "Designed Especially For You…",
     text:
-      "Every kitchen and bathroom we design is as unique as your personal style—whether you love contemporary chic or timeless traditional looks. We take things at your pace, welcoming you to our showroom for unrushed chats and collaborative CAD sessions to bring your vision to life. Our experienced designers blend creative flair with smart functionality, ensuring your new space looks breathtaking and works perfectly for how you live.",
+      "We design custom kitchens and bathrooms tailored to your style and lifestyle. Enjoy unhurried showroom chats, collaborative CAD previews at your own pace, and stunning designs that blend creativity with smart functionality.",
     image: "/assets/2.jpg",
     imageAlt: "Modern custom kitchen with pendant lighting",
     buttonText: "More about our design service...",
@@ -1058,7 +1057,7 @@ export const whyChooseUsRows = [
   {
     title: "Fully Project Managed Installation…",
     text:
-      "With more than 50 years under our belt handling complete kitchen and bathroom projects—from small building adjustments to working closely with architects and developers—you can trust that you are in expert hands. Because we directly employ our own fitters, we guarantee a seamless project management experience built on unmatched quality and care. We take care of all scheduling and specialist trades, checking in on-site regularly to ensure a stress-free process and to be right there whenever you need us.",
+      "With 50+ years of expertise in complete kitchen and bathroom projects—partnering with architects and developers—we handle everything from scheduling to building work. Backed by our in-house fitters and regular on-site management, we ensure a seamless, stress-free experience.",
     image: "/assets/3.jpg",
     imageAlt: "Fitter installing kitchen cabinetry",
     buttonText: "See our craftsmanship...",
@@ -1067,7 +1066,7 @@ export const whyChooseUsRows = [
   {
     title: "Quality furniture & Appliances…",
     text:
-      "Step into our showroom to feel the unmatched quality of the rigid furniture we’re so proud of. Every bespoke kitchen is brought to life using cabinetry from trusted British partners Stoneham, alongside our own handmade SKD Bespoke collection crafted in our Southampton workshop. Paired with award-winning appliances and top-tier accessories, our kitchens combine stunning craftsmanship with lasting durability.",
+      "Experience our rigid furniture firsthand in-showroom. We craft bespoke kitchens using British-made Stoneham cabinetry and our handcrafted Southampton collection, paired with premium appliances for lasting durability.",
     image: "/assets/4.jpg",
     imageAlt: "Finished kitchen ready for handover",
     buttonText: "Our aftercare promise...",

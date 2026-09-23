@@ -76,7 +76,7 @@ function WhyChooseUsRow({ row, index, scrollProgress }) {
 
   const imagePanel = (
     <div
-      className="relative w-full overflow-hidden bg-gray-100"
+      className="relative w-full overflow-hidden bg-gray-100 flex items-center justify-center"
       style={{
         opacity: inView ? 1 : 0,
         transform: inView ? `translateX(0)` : imageHiddenX,
@@ -86,11 +86,9 @@ function WhyChooseUsRow({ row, index, scrollProgress }) {
       <img
         src={row.image}
         alt={row.imageAlt}
-        className="w-full object-cover"
+        className="w-full h-full object-contain"
         style={{
-          maxHeight: "440px",
           minHeight: "300px",
-          height: "auto",
           imageRendering: "auto",
           willChange: "transform",
           transform: `translateY(${(rowProgress - 0.5) * 30}px) scale(${1 + Math.abs(rowProgress - 0.5) * 0.1})`,
@@ -105,7 +103,7 @@ function WhyChooseUsRow({ row, index, scrollProgress }) {
 
   const textPanel = (
     <div
-      className="flex flex-col justify-center gap-4 bg-brand px-8 py-14 md:px-16"
+      className="flex flex-col justify-center gap-4 bg-brand px-8 py-14 md:px-16 h-full"
       style={{
         opacity: inView ? 1 : 0,
         transform: inView ? "translateX(0)" : textHiddenX,
@@ -128,7 +126,7 @@ function WhyChooseUsRow({ row, index, scrollProgress }) {
   );
 
   return (
-    <div ref={ref} className="grid md:grid-cols-2">
+    <div ref={ref} className="grid md:grid-cols-2 items-stretch">
       {imageOnLeft ? imagePanel : textPanel}
       {imageOnLeft ? textPanel : imagePanel}
     </div>
